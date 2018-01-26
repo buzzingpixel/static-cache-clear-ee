@@ -10,4 +10,6 @@
 
 $lang = [
     'clearStaticCaches' => 'Clear Static Caches',
+    'staticCacheCleared' => 'Static Cache Cleared',
+    'theStaticCacheWasClearedSuccessfully' => 'The static cache was cleared successfully.',
 ];
