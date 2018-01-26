@@ -8,4 +8,6 @@
 
 // @codingStandardsIgnoreStart
 
-$lang = [];
+$lang = [
+    'clearStaticCaches' => 'Clear Static Caches',
+];
