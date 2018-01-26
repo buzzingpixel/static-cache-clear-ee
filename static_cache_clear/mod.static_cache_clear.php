@@ -6,6 +6,8 @@
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
 
+use buzzingpixel\cacheclear\services\CacheClearingService;
+
 /**
  * Class Static_cache_clear
  */
@@ -16,7 +18,7 @@ class Static_cache_clear
      */
     public function clear_static_cache()
     {
-        var_dump('clear_static_cache_mod_methdod');
-        die;
+        $cacheClearingService = new CacheClearingService();
+        $cacheClearingService->clear();
     }
 }
