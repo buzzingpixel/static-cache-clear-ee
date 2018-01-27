@@ -16,4 +16,11 @@ return [
     'namespace' => 'buzzingpixel\cacheclear',
     'settings_exist' => true,
     'version' => STATIC_CACHE_CLEAR_VER,
+    'commands' => [
+        'clearCaches' => [
+            'class' => '\buzzingpixel\cacheclear\commands\ClearCacheCommand',
+            'method' => 'runCacheClear',
+            'description' => 'Clear static caches',
+        ],
+    ],
 ];
